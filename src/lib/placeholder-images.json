@@ -1,3 +1,30 @@
+
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    { "id": "hero", "imageUrl": "https://picsum.photos/seed/hero1/1600/800", "imageHint": "vehicle wrap", "category": "wraps", "description": "Sleek matte black vehicle wrap on a luxury car." },
+    { "id": "showcase-1", "imageUrl": "https://picsum.photos/seed/show1/600/400", "imageHint": "storefront sign", "category": "signs", "subCategory": "exterior", "description": "Illuminated channel letter sign for a modern storefront." },
+    { "id": "showcase-2", "imageUrl": "https://picsum.photos/seed/show2/600/400", "imageHint": "food truck", "category": "wraps", "description": "Full color wrap on a food truck with vibrant graphics." },
+    { "id": "showcase-3", "imageUrl": "https://picsum.photos/seed/show3/600/400", "imageHint": "office wall", "category": "graphics", "description": "Large vinyl wall mural in a corporate office lobby." },
+    { "id": "showcase-4", "imageUrl": "https://picsum.photos/seed/show4/600/400", "imageHint": "fleet vans", "category": "wraps", "description": "Consistent branding across a fleet of commercial vans." },
+    { "id": "showcase-5", "imageUrl": "https://picsum.photos/seed/show5/600/400", "imageHint": "restaurant menu", "category": "signs", "subCategory": "interior", "description": "Digital menu board for a fast-casual restaurant." },
+    { "id": "sign-1", "imageUrl": "https://picsum.photos/seed/sign1/600/400", "imageHint": "lobby sign", "category": "signs", "subCategory": "interior", "description": "3D acrylic lobby sign with brushed metal finish." },
+    { "id": "sign-2", "imageUrl": "https://picsum.photos/seed/sign2/600/400", "imageHint": "monument sign", "category": "signs", "subCategory": "exterior", "description": "Brick and stone monument sign at a business park entrance." },
+    { "id": "sign-3", "imageUrl": "https://picsum.photos/seed/sign3/600/400", "imageHint": "wayfinding signs", "category": "signs", "subCategory": "interior", "description": "A set of clean, modern wayfinding signs in a hospital." },
+    { "id": "sign-4", "imageUrl": "https://picsum.photos/seed/sign4/600/400", "imageHint": "pylon sign", "category": "signs", "subCategory": "exterior", "description": "Tall pylon sign for a shopping center, visible from the highway." },
+    { "id": "sign-5", "imageUrl": "https://picsum.photos/seed/sign5/600/400", "imageHint": "window graphics", "category": "signs", "subCategory": "exterior", "description": "Perforated window vinyl on a retail store." },
+    { "id": "sign-6", "imageUrl": "https://picsum.photos/seed/sign6/600/400", "imageHint": "ADA signs", "category": "signs", "subCategory": "interior", "description": "ADA-compliant restroom signs with braille." },
+    { "id": "wrap-1", "imageUrl": "https://picsum.photos/seed/wrap1/600/400", "imageHint": "sports car", "category": "wraps", "description": "Glossy color-change wrap on a high-performance sports car." },
+    { "id": "wrap-2", "imageUrl": "https://picsum.photos/seed/wrap2/600/400", "imageHint": "box truck", "category": "wraps", "description": "Full commercial wrap on a box truck for a plumbing company." },
+    { "id": "wrap-3", "imageUrl": "https://picsum.photos/seed/wrap3/600/400", "imageHint": "boat wrap", "category": "wraps", "description": "Custom graphic wrap on the hull of a fishing boat." },
+    { "id": "wrap-4", "imageUrl": "https://picsum.photos/seed/wrap4/600/400", "imageHint": "van wrap", "category": "wraps", "description": "Partial wrap on a sprinter van for an electrician." },
+    { "id": "wrap-5", "imageUrl": "https://picsum.photos/seed/wrap5/600/400", "imageHint": "trailer wrap", "category": "wraps", "description": "Advertising wrap on a large event trailer." },
+    { "id": "wrap-6", "imageUrl": "https://picsum.photos/seed/wrap6/600/400", "imageHint": "bus wrap", "category": "wraps", "description": "Tour bus with a full promotional wrap for a band." },
+    { "id": "graphic-1", "imageUrl": "https://picsum.photos/seed/graphic1/600/400", "imageHint": "wall mural", "category": "graphics", "description": "Floor-to-ceiling photographic wall mural in a restaurant." },
+    { "id": "graphic-2", "imageUrl": "https://picsum.photos/seed/graphic2/600/400", "imageHint": "floor graphics", "category": "graphics", "description": "Directional arrow floor graphics in a retail space." },
+    { "id": "graphic-3", "imageUrl": "https://picsum.photos/seed/graphic3/600/400", "imageHint": "frosted glass", "category": "graphics", "description": "Frosted vinyl on glass conference room walls for privacy." },
+    { "id": "graphic-4", "imageUrl": "https://picsum.photos/seed/graphic4/600/400", "imageHint": "event banner", "category": "graphics", "description": "Large format banner for an outdoor music festival." },
+    { "id": "graphic-5", "imageUrl": "https://picsum.photos/seed/graphic5/600/400", "imageHint": "stadium graphics", "category": "graphics", "description": "Large scale graphics on a stadium wall." },
+    { "id": "graphic-6", "imageUrl": "https://picsum.photos/seed/graphic6/600/400", "imageHint": "construction hoarding", "category": "graphics", "description": "Branded graphics on construction site hoarding." },
+    { "id": "about-team", "imageUrl": "https://picsum.photos/seed/about1/800/500", "imageHint": "team work", "category": "about", "description": "The Avid Visuals team collaborating on a design." }
+  ]
 }
