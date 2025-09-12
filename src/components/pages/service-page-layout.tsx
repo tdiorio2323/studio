@@ -23,7 +23,7 @@ export function ServicePageLayout({ title, description, features, category }: Se
 
   return (
     <>
-      <section className="relative py-20 md:py-32 bg-card">
+      <section className="relative py-20 md:py-32 bg-card text-primary-foreground">
         {heroImage && (
             <Image 
                 src={heroImage.imageUrl}
@@ -32,12 +32,13 @@ export function ServicePageLayout({ title, description, features, category }: Se
                 className="object-cover"
             />
         )}
+        <div className="absolute inset-0 bg-black/50" />
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl">
-            <h1 className="font-headline text-4xl md:text-5xl font-bold tracking-tight">
+            <h1 className="font-headline text-4xl md:text-5xl font-bold tracking-tight" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}>
               {title}
             </h1>
-            <p className="mt-6 text-lg text-muted-foreground">
+            <p className="mt-6 text-lg" style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.5)' }}>
               {description}
             </p>
           </div>
