@@ -1,7 +1,7 @@
 
 {
   "placeholderImages": [
-    { "id": "hero", "imageUrl": "https://picsum.photos/seed/hero1/1600/800", "imageHint": "vehicle wrap", "category": "wraps", "description": "Sleek matte black vehicle wrap on a luxury car." },
+    { "id": "hero", "imageUrl": "https://i.imgur.com/sNUfGzB.jpeg", "imageHint": "storefront sign", "category": "signs", "description": "Illuminated storefront sign for 'Something Sweet' bakery." },
     { "id": "showcase-1", "imageUrl": "https://picsum.photos/seed/show1/600/400", "imageHint": "storefront sign", "category": "signs", "subCategory": "exterior", "description": "Illuminated channel letter sign for a modern storefront." },
     { "id": "new-wrap-1", "imageUrl": "https://i.imgur.com/vKI6vFv.jpeg", "imageHint": "van wrap", "category": "wraps", "description": "Brooklyn Audiology branded van wrap." },
     { "id": "new-wrap-2", "imageUrl": "https://i.imgur.com/QpM4a3g.jpeg", "imageHint": "truck wrap", "category": "wraps", "description": "Richmond Tile work truck wrap design." },
