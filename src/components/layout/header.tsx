@@ -32,7 +32,7 @@ export function Header() {
       onClick={() => setIsMenuOpen(false)}
       className={cn(
         'text-sm font-medium transition-colors hover:text-primary',
-        pathname.startsWith(href) ? 'text-primary' : 'text-muted-foreground',
+        pathname.startsWith(href) ? 'text-primary' : 'text-foreground',
         className
       )}
     >
