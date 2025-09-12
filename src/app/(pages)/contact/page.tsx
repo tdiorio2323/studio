@@ -1,3 +1,4 @@
+
 import { ContactForm } from '@/components/shared/contact-form';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Mail, Phone, MapPin } from 'lucide-react';
@@ -11,14 +12,14 @@ const contactDetails = [
   {
     icon: MapPin,
     title: 'Our Location',
-    info: '123 Main Street, Staten Island, NY 10301',
-    href: 'https://maps.google.com'
+    info: '1374-1382 Richmond Terrace, Staten Island, NY 10310',
+    href: 'https://share.google/YLY3VWLRoy1CcC2qa'
   },
   {
     icon: Phone,
     title: 'Call Us',
-    info: '(718) 555-1234',
-    href: 'tel:7185551234'
+    info: '(718) 447-2843',
+    href: 'tel:7184472843'
   },
   {
     icon: Mail,

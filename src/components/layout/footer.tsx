@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import { Logo } from '@/components/shared/logo';
 import { Button } from '@/components/ui/button';
-import { Facebook, Instagram, Twitter } from 'lucide-react';
+import { Facebook, Instagram, Twitter, MapPin } from 'lucide-react';
 
 const navLinks = [
     { href: '/signs', label: 'Signs' },
@@ -15,9 +15,8 @@ const navLinks = [
 ];
 
 const socialLinks = [
-    { icon: Twitter, href: '#', name: 'Twitter' },
-    { icon: Facebook, href: '#', name: 'Facebook' },
-    { icon: Instagram, href: '#', name: 'Instagram' },
+    { icon: Instagram, href: 'https://www.instagram.com/avid_signs_wraps/?hl=en', name: 'Instagram' },
+    { icon: MapPin, href: 'https://share.google/YLY3VWLRoy1CcC2qa', name: 'Google Maps' },
 ]
 
 export function Footer() {
@@ -60,7 +59,7 @@ export function Footer() {
             <div className="flex space-x-4">
                 {socialLinks.map(social => (
                     <Button key={social.name} variant="ghost" size="icon" asChild>
-                        <Link href={social.href} aria-label={social.name}>
+                        <Link href={social.href} aria-label={social.name} target="_blank" rel="noopener noreferrer">
                             <social.icon className="h-5 w-5" />
                         </Link>
                     </Button>
