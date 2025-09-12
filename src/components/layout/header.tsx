@@ -15,7 +15,7 @@ const navLinks = [
   { href: '/signs', label: 'Signs' },
   { href: '/vehicle-wraps', label: 'Vehicle Wraps' },
   { href: '/large-format-graphics', label: 'Large Format' },
-  { href: '/gallery', label: 'Gallery' },
+  { href: '/work', label: 'Our Work' },
   { href: '/about', label: 'About' },
   { href: '/contact', label: 'Contact' },
 ];
@@ -30,7 +30,7 @@ export function Header() {
       onClick={() => setIsMenuOpen(false)}
       className={cn(
         'text-sm font-medium transition-colors hover:text-primary',
-        pathname === href ? 'text-primary' : 'text-muted-foreground',
+        pathname.startsWith(href) ? 'text-primary' : 'text-muted-foreground',
         className
       )}
     >

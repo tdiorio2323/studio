@@ -3,6 +3,8 @@
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
+import { addDoc, collection } from 'firebase/firestore';
+import { db } from '@/lib/firebase';
 
 import { Button } from '@/components/ui/button';
 import {
@@ -47,19 +49,26 @@ export function ContactForm() {
     },
   });
 
-  const onSubmit = (values: z.infer<typeof formSchema>) => {
-    console.log(values);
-    // Here you would typically send the form data to your backend
-    return new Promise((resolve) => {
-      setTimeout(() => {
-        toast({
-          title: 'Message Sent!',
-          description: 'Thank you for reaching out. We will get back to you shortly.',
-        });
-        form.reset();
-        resolve(null);
-      }, 1000);
-    });
+  const onSubmit = async (values: z.infer<typeof formSchema>) => {
+    try {
+      await addDoc(collection(db, 'submissions'), {
+        ...values,
+        submittedAt: new Date(),
+      });
+
+      toast({
+        title: 'Message Sent!',
+        description: 'Thank you for reaching out. We will get back to you shortly.',
+      });
+      form.reset();
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      toast({
+        title: 'Submission Error',
+        description: 'There was a problem sending your message. Please try again later.',
+        variant: 'destructive',
+      });
+    }
   };
 
   return (
