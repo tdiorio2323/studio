@@ -4,7 +4,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
@@ -25,6 +25,11 @@ const navLinks = [
 export function Header() {
   const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   const NavLink = ({ href, label, className }: { href: string; label: string; className?: string }) => (
     <Link
@@ -32,7 +37,7 @@ export function Header() {
       onClick={() => setIsMenuOpen(false)}
       className={cn(
         'text-sm font-medium transition-colors hover:text-primary',
-        pathname.startsWith(href) ? 'text-primary' : 'text-foreground',
+        isClient && pathname.startsWith(href) ? 'text-primary' : 'text-foreground',
         className
       )}
     >
