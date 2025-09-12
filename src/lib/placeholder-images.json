@@ -1,7 +1,7 @@
 
 {
   "placeholderImages": [
-    { "id": "hero", "imageUrl": "https://i.imgur.com/wSQVduC.png", "imageHint": "business sign", "category": "signs", "description": "'Country Mouse' dimensional business sign." },
+    { "id": "hero", "imageUrl": "https://picsum.photos/seed/hero-main/1200/800", "imageHint": "sign making", "category": "general", "description": "Professional sign fabrication in progress." },
     { "id": "showcase-1", "imageUrl": "https://picsum.photos/seed/show1/600/400", "imageHint": "storefront sign", "category": "signs", "subCategory": "exterior", "description": "Illuminated channel letter sign for a modern storefront." },
     { "id": "new-wrap-1", "imageUrl": "https://i.imgur.com/vKI6vFv.jpeg", "imageHint": "van wrap", "category": "wraps", "description": "Brooklyn Audiology branded van wrap." },
     { "id": "new-wrap-2", "imageUrl": "https://i.imgur.com/QpM4a3g.jpeg", "imageHint": "truck wrap", "category": "wraps", "description": "Richmond Tile work truck wrap design." },
@@ -19,7 +19,7 @@
     { "id": "sign-6", "imageUrl": "https://picsum.photos/seed/sign6/600/400", "imageHint": "ADA signs", "category": "signs", "subCategory": "interior", "description": "ADA-compliant restroom signs with braille." },
     { "id": "new-sign-1", "imageUrl": "https://picsum.photos/seed/newsign1/600/400", "imageHint": "storefront sign", "category": "signs", "subCategory": "exterior", "description": "'Something Sweet' storefront sign installation." },
     { "id": "new-sign-2", "imageUrl": "https://picsum.photos/seed/newsign2/600/400", "imageHint": "illuminated sign", "category": "signs", "subCategory": "exterior", "description": "Vivid illuminated channel letter sign at night." },
-    { "id": "new-sign-3", "imageUrl": "https://picsum.photos/seed/newsign3/600/400", "imageHint": "business sign", "category": "signs", "subCategory": "exterior", "description": "'Country Mouse' dimensional business sign." },
+    { "id": "new-sign-3", "imageUrl": "https://i.imgur.com/wSQVduC.png", "imageHint": "business sign", "category": "signs", "subCategory": "exterior", "description": "'Country Mouse' dimensional business sign." },
     { "id": "new-sign-4", "imageUrl": "https://picsum.photos/seed/newsign4/600/400", "imageHint": "restaurant sign", "category": "signs", "subCategory": "exterior", "description": "'The Pizza Parlor' classic storefront sign." },
     { "id": "wrap-1", "imageUrl": "https://picsum.photos/seed/wrap1/600/400", "imageHint": "sports car", "category": "wraps", "description": "Glossy color-change wrap on a high-performance sports car." },
     { "id": "wrap-2", "imageUrl": "https://picsum.photos/seed/wrap2/600/400", "imageHint": "box truck", "category": "wraps", "description": "Full commercial wrap on a box truck for a plumbing company." },
