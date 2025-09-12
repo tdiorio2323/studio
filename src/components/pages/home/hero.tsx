@@ -23,7 +23,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-black/50" />
       <div className="relative z-10 container mx-auto px-4 text-center">
         <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter mb-4 animate-fade-in-up">
-          Exceptional Signs & Wraps
+          Avid Signs & Wraps
         </h1>
         <p className="max-w-2xl mx-auto text-lg md:text-xl text-primary-foreground/90 mb-8 animate-fade-in-up animation-delay-300">
           We bring your brand to life with stunning visuals, from custom signs to eye-catching vehicle wraps. Serving Staten Island and the tri-state area.
