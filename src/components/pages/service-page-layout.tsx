@@ -30,13 +30,14 @@ export function ServicePageLayout({ title, description, features, category, hero
 
   return (
     <>
-      <section className="relative py-20 md:py-32 bg-card text-primary-foreground">
+      <section className="relative py-20 md:py-32 bg-card text-white">
         {heroImage && (
             <Image 
                 src={heroImage.imageUrl}
                 alt={title}
                 fill
                 className="object-cover"
+                priority
             />
         )}
         <div className="absolute inset-0 bg-black/50" />
