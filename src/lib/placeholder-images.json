@@ -1,7 +1,7 @@
 
 {
   "placeholderImages": [
-    { "id": "hero", "imageUrl": "https://i.imgur.com/wSQVduC.png", "imageHint": "business sign", "category": "signs", "description": "'Country Mouse' dimensional business sign." },
+    { "id": "hero", "imageUrl": "https://i.imgur.com/4A4wzeh.jpeg", "imageHint": "business sign", "category": "signs", "description": "'Country Mouse' dimensional business sign." },
     { "id": "showcase-1", "imageUrl": "https://picsum.photos/seed/show1/600/400", "imageHint": "storefront sign", "category": "signs", "subCategory": "exterior", "description": "Illuminated channel letter sign for a modern storefront." },
     { "id": "new-wrap-1", "imageUrl": "https://i.imgur.com/vKI6vFv.jpeg", "imageHint": "van wrap", "category": "wraps", "description": "Brooklyn Audiology branded van wrap." },
     { "id": "new-wrap-2", "imageUrl": "https://i.imgur.com/QpM4a3g.jpeg", "imageHint": "truck wrap", "category": "wraps", "description": "Richmond Tile work truck wrap design." },
@@ -27,13 +27,11 @@
     { "id": "wrap-4", "imageUrl": "https://picsum.photos/seed/wrap4/600/400", "imageHint": "van wrap", "category": "wraps", "description": "Partial wrap on a sprinter van for an electrician." },
     { "id": "wrap-5", "imageUrl": "https://picsum.photos/seed/wrap5/600/400", "imageHint": "trailer wrap", "category": "wraps", "description": "Advertising wrap on a large event trailer." },
     { "id": "wrap-6", "imageUrl": "https://picsum.photos/seed/wrap6/600/400", "imageHint": "bus wrap", "category": "wraps", "description": "Tour bus with a full promotional wrap for a band." },
-    { "id": "graphic-1", "imageUrl": "https://picsum.photos/seed/graphic1/600/400", "imageHint": "wall mural", "category": "graphics", "description": "Floor-to-ceiling photographic wall mural in a restaurant." },
-    { "id": "graphic-2", "imageUrl": "https://picsum.photos/seed/graphic2/600/400", "imageHint": "floor graphics", "category": "graphics", "description": "Directional arrow floor graphics in a retail space." },
-    { "id": "graphic-3", "imageUrl": "https://picsum.photos/seed/graphic3/600/400", "imageHint": "frosted glass", "category": "graphics", "description": "Frosted vinyl on glass conference room walls for privacy." },
-    { "id": "graphic-4", "imageUrl": "https://picsum.photos/seed/graphic4/600/400", "imageHint": "event banner", "category": "graphics", "description": "Large format banner for an outdoor music festival." },
-    { "id": "graphic-5", "imageUrl": "https://picsum.photos/seed/graphic5/600/400", "imageHint": "stadium graphics", "category": "graphics", "description": "Large scale graphics on a stadium wall." },
-    { "id": "graphic-6", "imageUrl": "https://picsum.photos/seed/graphic6/600/400", "imageHint": "construction hoarding", "category": "graphics", "description": "Branded graphics on construction site hoarding." },
     { "id": "new-graphic-1", "imageUrl": "https://picsum.photos/seed/newgraphic1/600/400", "imageHint": "hospital wall", "category": "graphics", "description": "Staten Island University Hospital decorative wall graphic." },
-    { "id": "about-team", "imageUrl": "https://picsum.photos/seed/about1/800/500", "imageHint": "team work", "category": "about", "description": "The Avid Visuals team collaborating on a design." }
+    { "id": "new-graphic-2", "imageUrl": "https://picsum.photos/seed/newgraphic2/800/600", "imageHint": "store window", "category": "graphics", "description": "Decorative window graphics for a retail storefront." },
+    { "id": "new-graphic-3", "imageUrl": "https://picsum.photos/seed/newgraphic3/800/600", "imageHint": "office mural", "category": "graphics", "description": "Branded wall mural in a modern office space." },
+    { "id": "new-graphic-4", "imageUrl": "https://picsum.photos/seed/newgraphic4/800/600", "imageHint": "event backdrop", "category": "graphics", "description": "Large format backdrop for a corporate event." },
+    { "id": "about-team", "imageUrl": "https://picsum.photos/seed/about1/800/500", "imageHint": "team work", "category": "about", "description": "The Avid Visuals team collaborating on a design." },
+    { "id": "wrap-hero", "imageUrl": "https://i.imgur.com/G4I4ZZ6.jpeg", "imageHint": "van wrap", "category": "wraps", "description": "C.J. Scotti Services LLC branded van wrap." }
   ]
 }

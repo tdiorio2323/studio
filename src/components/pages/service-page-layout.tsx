@@ -10,11 +10,18 @@ interface ServicePageLayoutProps {
   description: string;
   features: string[];
   category: 'signs' | 'wraps' | 'graphics';
+  heroImageId?: string;
 }
 
-export function ServicePageLayout({ title, description, features, category }: ServicePageLayoutProps) {
+export function ServicePageLayout({ title, description, features, category, heroImageId }: ServicePageLayoutProps) {
   const images = PlaceHolderImages.filter((img) => img.category === category);
-  const heroImage = images.find(img => !img.id.startsWith('new-')) || images[0];
+  
+  let heroImage;
+  if (heroImageId) {
+    heroImage = PlaceHolderImages.find(img => img.id === heroImageId);
+  } else {
+    heroImage = images.find(img => !img.id.startsWith('new-')) || images[0];
+  }
   
   // Prioritize showing new images in the capabilities section
   const newImages = images.filter(img => img.id.startsWith('new-'));

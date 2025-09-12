@@ -20,6 +20,7 @@ export default function VehicleWrapsPage() {
             title="Vehicle Wraps"
             description="Maximize your brand's visibility on the road. We design, print, and install stunning, durable vehicle wraps that make a lasting impression wherever you go."
             features={features}
-            category="wraps" />
+            category="wraps"
+            heroImageId="wrap-hero" />
     );
 }
