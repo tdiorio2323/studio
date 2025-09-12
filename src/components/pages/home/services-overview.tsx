@@ -1,25 +1,27 @@
 import Link from 'next/link';
-import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Signpost, Car, Layers, ArrowRight } from 'lucide-react';
+import Image from 'next/image';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { ArrowRight } from 'lucide-react';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const services = [
   {
-    icon: Signpost,
     title: 'Custom Signs',
     description: 'Interior and exterior signage solutions that build your brand identity and attract customers.',
     href: '/signs',
+    imageId: 'service-signs',
   },
   {
-    icon: Car,
     title: 'Vehicle Wraps',
     description: 'Turn your company vehicles into mobile billboards with our high-quality, durable wraps.',
     href: '/vehicle-wraps',
+    imageId: 'service-wraps',
   },
   {
-    icon: Layers,
     title: 'Large Format Graphics',
     description: 'Make a big impact with wall murals, window graphics, banners, and more.',
     href: '/large-format-graphics',
+    imageId: 'service-graphics',
   },
 ];
 
@@ -36,22 +38,34 @@ export function ServicesOverview() {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {services.map((service) => (
-            <Link href={service.href} key={service.title} className="group">
-              <Card className="h-full hover:shadow-xl hover:-translate-y-2 transition-transform duration-300">
-                <CardHeader className="items-center text-center">
-                  <div className="p-4 bg-primary text-primary-foreground rounded-full mb-4">
-                    <service.icon className="h-8 w-8" />
-                  </div>
-                  <CardTitle className="font-headline text-2xl">{service.title}</CardTitle>
-                  <CardDescription className="pt-2">{service.description}</CardDescription>
-                  <div className="mt-4 flex items-center text-sm font-semibold text-primary group-hover:text-accent transition-colors">
-                    Learn More <ArrowRight className="ml-2 h-4 w-4" />
-                  </div>
-                </CardHeader>
-              </Card>
-            </Link>
-          ))}
+          {services.map((service) => {
+            const image = PlaceHolderImages.find(img => img.id === service.imageId);
+            return (
+              <Link href={service.href} key={service.title} className="group">
+                <Card className="h-full hover:shadow-xl hover:-translate-y-2 transition-transform duration-300 overflow-hidden">
+                  {image && (
+                    <div className="relative aspect-video">
+                        <Image 
+                            src={image.imageUrl}
+                            alt={service.title}
+                            fill
+                            className="object-cover transition-transform group-hover:scale-105"
+                        />
+                    </div>
+                  )}
+                  <CardHeader>
+                    <CardTitle className="font-headline text-2xl">{service.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <CardDescription>{service.description}</CardDescription>
+                    <div className="mt-4 flex items-center text-sm font-semibold text-primary group-hover:text-accent transition-colors">
+                        Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
+            )
+          })}
         </div>
       </div>
     </section>
