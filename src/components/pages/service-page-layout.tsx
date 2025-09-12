@@ -14,7 +14,12 @@ interface ServicePageLayoutProps {
 
 export function ServicePageLayout({ title, description, features, category }: ServicePageLayoutProps) {
   const images = PlaceHolderImages.filter((img) => img.category === category);
-  const heroImage = images[0];
+  const heroImage = images.find(img => !img.id.startsWith('new-')) || images[0];
+  
+  // Prioritize showing new images in the capabilities section
+  const newImages = images.filter(img => img.id.startsWith('new-'));
+  const otherImages = images.filter(img => !img.id.startsWith('new-') && img.id !== heroImage?.id);
+  const capabilitiesImages = [...newImages, ...otherImages].slice(0, 4);
 
   return (
     <>
@@ -54,10 +59,10 @@ export function ServicePageLayout({ title, description, features, category }: Se
                     </ul>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
-                    {images.slice(1, 5).map((image, index) => (
-                        <Card key={image.id} className={`overflow-hidden shadow-md ${index === 0 ? 'col-span-2' : ''}`}>
+                    {capabilitiesImages.map((image, index) => (
+                        <Card key={image.id} className={`overflow-hidden shadow-md ${index === 0 && capabilitiesImages.length > 1 ? 'col-span-2' : ''}`}>
                              <div className="relative aspect-video">
-                                <Image src={image.imageUrl} alt={image.description} fill className="object-cover" />
+                                <Image src={image.imageUrl} alt={image.description} fill className="object-cover" data-ai-hint={image.imageHint}/>
                              </div>
                         </Card>
                     ))}
