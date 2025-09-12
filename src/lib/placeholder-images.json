@@ -8,7 +8,7 @@
     { "id": "new-wrap-3", "imageUrl": "https://i.imgur.com/rS2aWcr.jpeg", "imageHint": "van wrap", "category": "wraps", "description": "'Love Your Bath' promotional van wrap." },
     { "id": "new-wrap-4", "imageUrl": "https://i.imgur.com/h5TQVNa.jpeg", "imageHint": "truck wrap", "category": "wraps", "description": "Tidal Wave commercial truck wrap." },
     { "id": "showcase-2", "imageUrl": "https://picsum.photos/seed/show2/600/400", "imageHint": "food truck", "category": "wraps", "description": "Full color wrap on a food truck with vibrant graphics." },
-    { "id": "showcase-3", "imageUrl": "https://i.imgur.com/Jb25QFx.jpeg", "imageHint": "office wall", "category": "graphics", "description": "Large vinyl wall mural in a corporate office lobby." },
+    { "id": "showcase-3", "imageUrl": "https://i.imgur.com/Os5vPja.jpeg", "imageHint": "storefront sign", "category": "signs", "subCategory": "exterior", "description": "The Black Derby storefront sign." },
     { "id": "showcase-4", "imageUrl": "https://picsum.photos/seed/show4/600/400", "imageHint": "fleet vans", "category": "wraps", "description": "Consistent branding across a fleet of commercial vans." },
     { "id": "showcase-5", "imageUrl": "https://picsum.photos/seed/show5/600/400", "imageHint": "restaurant menu", "category": "signs", "subCategory": "interior", "description": "Digital menu board for a fast-casual restaurant." },
     { "id": "sign-1", "imageUrl": "https://picsum.photos/seed/sign1/600/400", "imageHint": "lobby sign", "category": "signs", "subCategory": "interior", "description": "3D acrylic lobby sign with brushed metal finish." },
