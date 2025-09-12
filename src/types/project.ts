@@ -4,7 +4,7 @@ export type Project = {
   id: string;
   title: string;
   slug: string;
-  category: "signs" | "vehicle-wraps" | "large-format";
+  category: "Signs" | "Vehicle Wraps" | "Large-Format";
   client: string;
   location: string;
   dimensions: string;
