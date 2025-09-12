@@ -83,14 +83,14 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
             </div>
             
             {/* Project Write-up */}
-            <div className="grid md:grid-cols-2 gap-12 prose prose-lg max-w-none mx-auto text-foreground">
+            <div className="grid md:grid-cols-2 gap-12 max-w-none mx-auto">
                 <div>
                     <h2 className="font-headline text-2xl font-bold mb-4">The Project</h2>
-                    <p className="text-muted-foreground">This project showcases our expertise in creating high-quality {project.category}. We worked closely with the client to bring their vision to life, resulting in a stunning visual that enhances their brand presence.</p>
+                    <p className="text-lg text-muted-foreground">This project showcases our expertise in creating high-quality {project.category}. We worked closely with the client to bring their vision to life, resulting in a stunning visual that enhances their brand presence.</p>
                 </div>
                 <div>
                     <h2 className="font-headline text-2xl font-bold mb-4">Our Process</h2>
-                    <p className="text-muted-foreground">From initial design concepts to final installation, our team managed every step of the process. We used top-tier materials and advanced fabrication techniques to ensure a durable and impressive final product that exceeds expectations.</p>
+                    <p className="text-lg text-muted-foreground">From initial design concepts to final installation, our team managed every step of the process. We used top-tier materials and advanced fabrication techniques to ensure a durable and impressive final product that exceeds expectations.</p>
                 </div>
             </div>
 
