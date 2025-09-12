@@ -1,18 +1,15 @@
-import { getAllProjects } from '@/lib/firestore';
-import { Project } from '@/types/project';
+import { PlaceHolderImages, type ImagePlaceholder } from '@/lib/placeholder-images';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
-
-export const revalidate = 60; // Revalidate data every 60 seconds
 
 export const metadata = {
     title: 'Our Work | Avid Visuals',
     description: 'Explore our portfolio of custom signs, vehicle wraps, and large format graphics.'
 }
 
-export default async function WorkPage() {
-  const projects = await getAllProjects();
+export default function WorkPage() {
+  const projects = PlaceHolderImages.filter(p => ['signs', 'wraps', 'graphics'].includes(p.category));
 
   return (
     <div className="bg-background py-16 md:py-24">
@@ -29,20 +26,20 @@ export default async function WorkPage() {
         {projects.length > 0 ? (
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {projects.map(project => (
-              <Link key={project.slug} href={`/work/${project.slug}`} className="group">
+              <Link key={project.id} href={`/work/${project.id}`} className="group">
                 <Card className="overflow-hidden h-full hover:shadow-xl transition-shadow">
                     <div className="relative aspect-video">
                         <Image
-                            src={project.gallery[0] || 'https://picsum.photos/seed/placeholder/600/400'}
-                            alt={project.title}
+                            src={project.imageUrl}
+                            alt={project.description}
                             fill
                             className="object-cover w-full transition-transform group-hover:scale-105"
                         />
                     </div>
                     <CardContent className="p-4">
                         <p className="text-sm uppercase font-bold text-accent">{project.category}</p>
-                        <h2 className="font-headline text-xl font-semibold mt-1 group-hover:text-primary transition-colors">{project.title}</h2>
-                        <p className="text-sm text-muted-foreground mt-1">{project.client}</p>
+                        <h2 className="font-headline text-xl font-semibold mt-1 group-hover:text-primary transition-colors">{project.description}</h2>
+                        <p className="text-sm text-muted-foreground mt-1 capitalize">{project.subCategory}</p>
                     </CardContent>
                 </Card>
               </Link>

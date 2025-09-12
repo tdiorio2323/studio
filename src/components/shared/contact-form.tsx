@@ -3,8 +3,8 @@
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
-import { addDoc, collection } from 'firebase/firestore';
-import { db } from '@/lib/firebase';
+// import { addDoc, collection } from 'firebase/firestore';
+// import { db } from '@/lib/firebase';
 
 import { Button } from '@/components/ui/button';
 import {
@@ -51,10 +51,14 @@ export function ContactForm() {
 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     try {
-      await addDoc(collection(db, 'submissions'), {
-        ...values,
-        submittedAt: new Date(),
-      });
+      // For now, we'll just log the submission to the console.
+      console.log('Form submitted:', values);
+      
+      // Example of how to re-enable Firestore submission:
+      // await addDoc(collection(db, 'submissions'), {
+      //   ...values,
+      //   submittedAt: new Date(),
+      // });
 
       toast({
         title: 'Message Sent!',
