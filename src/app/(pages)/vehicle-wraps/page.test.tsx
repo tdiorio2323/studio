@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import VehicleWrapsPage from './page';
+import VehicleWrapsPage from "./metadata";
 import { ServicePageLayout } from '@/components/pages/service-page-layout';
 
 // Mock the ServicePageLayout component
