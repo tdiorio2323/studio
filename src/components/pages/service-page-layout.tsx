@@ -29,7 +29,7 @@ export function ServicePageLayout({ title, description, features, category }: Se
                 src={heroImage.imageUrl}
                 alt={title}
                 fill
-                className="object-cover opacity-20"
+                className="object-cover"
             />
         )}
         <div className="container mx-auto px-4 relative z-10">
