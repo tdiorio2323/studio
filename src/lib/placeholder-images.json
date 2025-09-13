@@ -1,7 +1,7 @@
 
 {
   "placeholderImages": [
-    { "id": "hero-main", "imageUrl": "https://i.imgur.com/jtBAgNN.jpeg", "imageHint": "storefront sign", "category": "general", "description": "Takkra illuminated storefront sign." },
+    { "id": "hero-main", "imageUrl": "https://i.imgur.com/G5T2aY4.jpeg", "imageHint": "storefront sign", "category": "general", "description": "Takkra illuminated storefront sign." },
     { "id": "hero-1", "imageUrl": "https://i.imgur.com/vKI6vFv.jpeg", "imageHint": "storefront sign", "category": "general", "description": "Front view of the 'THINK DO SAY' pediatric speech therapy center." },
     { "id": "hero-2", "imageUrl": "https://i.imgur.com/QpM4a3g.jpeg", "imageHint": "storefront sign", "category": "general", "description": "Angled shot of the 'THINK DO SAY' storefront and main entrance." },
     { "id": "hero-3", "imageUrl": "https://i.imgur.com/rS2aWcr.jpeg", "imageHint": "window graphics", "category": "general", "description": "Close-up of the service description window graphics for speech and feeding therapy." },
