@@ -33,7 +33,7 @@ export function Hero() {
         >
             <CarouselContent className="h-full">
                 {heroImages.map((image) => (
-                    <CarouselItem key={image.id} className="h-full">
+                    <CarouselItem key={image.id} className="h-full pl-0">
                         <div className="relative w-full h-full">
                             <Image
                                 src={image.imageUrl}
