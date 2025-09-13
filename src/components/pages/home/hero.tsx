@@ -16,7 +16,7 @@ export function Hero() {
   const heroImages = PlaceHolderImages.filter(img => img.imageUrl.includes('i.imgur.com'));
 
   return (
-    <section className="relative h-[60vh] md:h-[80vh] w-full flex items-center justify-center text-white">
+    <section className="relative h-[60vh] md:h-[80vh] w-full text-white">
         <Carousel
             opts={{
                 align: 'start',
@@ -50,23 +50,25 @@ export function Hero() {
         </Carousel>
 
       <div className="absolute inset-0 bg-black/50" />
-      <div className="relative z-10 container mx-auto px-4 text-center">
-        <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter mb-4 animate-fade-in-up">
-          Avid Signs & Wraps
-        </h1>
-        <p className="max-w-2xl mx-auto text-lg md:text-xl text-primary-foreground/90 mb-8 animate-fade-in-up animation-delay-300">
-          We bring your brand to life with stunning visuals, from custom signs to eye-catching vehicle wraps. Serving Staten Island and the tri-state area.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up animation-delay-600">
-          <Button size="lg" asChild>
-            <Link href="/contact">
-              Get Your Free Quote
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Link>
-          </Button>
-          <Button size="lg" variant="secondary" asChild>
-            <Link href="/gallery">View Our Work</Link>
-          </Button>
+      <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
+        <div className="relative container mx-auto px-4 text-center">
+            <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter mb-4 animate-fade-in-up">
+            Avid Signs & Wraps
+            </h1>
+            <p className="max-w-2xl mx-auto text-lg md:text-xl text-primary-foreground/90 mb-8 animate-fade-in-up animation-delay-300">
+            We bring your brand to life with stunning visuals, from custom signs to eye-catching vehicle wraps. Serving Staten Island and the tri-state area.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up animation-delay-600">
+            <Button size="lg" asChild>
+                <Link href="/contact">
+                Get Your Free Quote
+                <ArrowRight className="ml-2 h-5 w-5" />
+                </Link>
+            </Button>
+            <Button size="lg" variant="secondary" asChild>
+                <Link href="/gallery">View Our Work</Link>
+            </Button>
+            </div>
         </div>
       </div>
       <style jsx>{`
