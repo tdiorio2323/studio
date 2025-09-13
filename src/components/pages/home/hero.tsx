@@ -7,7 +7,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ArrowRight } from 'lucide-react';
 
 export function Hero() {
-  const heroImage = PlaceHolderImages.find(img => img.id === 'showcase-3');
+  const heroImage = PlaceHolderImages.find(img => img.id === 'hero-main');
 
   return (
     <section className="relative h-[60vh] md:h-[80vh] w-full text-white">
@@ -25,8 +25,8 @@ export function Hero() {
       )}
 
       <div className="absolute inset-0 bg-black/50" />
-      <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
-        <div className="relative container mx-auto px-4 text-center">
+      <div className="container mx-auto px-4 text-center relative z-10 flex flex-col items-center justify-center h-full">
+        <div className="max-w-2xl">
             <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter mb-4 animate-fade-in-up">
             Avid Signs & Wraps
             </h1>
