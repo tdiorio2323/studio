@@ -34,7 +34,7 @@ export function Hero() {
             We bring your brand to life with stunning visuals, from custom signs to eye-catching vehicle wraps. Serving Staten Island and the tri-state area.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up animation-delay-600">
-            <Button size="lg" asChild>
+            <Button size="xl" asChild>
                 <Link href="/contact">
                 Get Your Free Quote
                 <ArrowRight className="ml-2 h-5 w-5" />
