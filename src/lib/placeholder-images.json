@@ -1,7 +1,7 @@
 
 {
   "placeholderImages": [
-    { "id": "hero-main", "imageUrl": "https://i.imgur.com/G5T2aY4.jpeg", "imageHint": "storefront sign", "category": "general", "description": "Takkra illuminated storefront sign." },
+    { "id": "hero-main", "imageUrl": "https://i.imgur.com/jtBAgNN.jpeg", "imageHint": "storefront sign", "category": "general", "description": "Takkra illuminated storefront sign." },
     { "id": "hero-1", "imageUrl": "https://i.imgur.com/vKI6vFv.jpeg", "imageHint": "storefront sign", "category": "general", "description": "Front view of the 'THINK DO SAY' pediatric speech therapy center." },
     { "id": "hero-2", "imageUrl": "https://i.imgur.com/QpM4a3g.jpeg", "imageHint": "storefront sign", "category": "general", "description": "Angled shot of the 'THINK DO SAY' storefront and main entrance." },
     { "id": "hero-3", "imageUrl": "https://i.imgur.com/rS2aWcr.jpeg", "imageHint": "window graphics", "category": "general", "description": "Close-up of the service description window graphics for speech and feeding therapy." },
@@ -9,7 +9,7 @@
     { "id": "hero-5", "imageUrl": "https://i.imgur.com/G4I4ZZ6.jpeg", "imageHint": "storefront sign", "category": "general", "description": "Wide shot of the 'THINK DO SAY' building facade." },
     { "id": "showcase-1", "imageUrl": "https://picsum.photos/seed/show1/600/400", "imageHint": "storefront sign", "category": "signs", "subCategory": "exterior", "description": "Illuminated channel letter sign for a modern storefront." },
     { "id": "showcase-2", "imageUrl": "https://picsum.photos/seed/show2/600/400", "imageHint": "food truck", "category": "wraps", "description": "Full color wrap on a food truck with vibrant graphics." },
-    { "id": "showcase-3", "imageUrl": "https://i.imgur.com/G5T2aY4.jpeg", "imageHint": "storefront sign", "category": "signs", "subCategory": "exterior", "description": "Takkra illuminated storefront sign." },
+    { "id": "showcase-3", "imageUrl": "https://i.imgur.com/jtBAgNN.jpeg", "imageHint": "storefront sign", "category": "signs", "subCategory": "exterior", "description": "Takkra illuminated storefront sign." },
     { "id": "showcase-4", "imageUrl": "https://picsum.photos/seed/show4/600/400", "imageHint": "fleet vans", "category": "wraps", "description": "Consistent branding across a fleet of commercial vans." },
     { "id": "showcase-5", "imageUrl": "https://picsum.photos/seed/show5/600/400", "imageHint": "restaurant menu", "category": "signs", "subCategory": "interior", "description": "Digital menu board for a fast-casual restaurant." },
     { "id": "sign-1", "imageUrl": "https://picsum.photos/seed/sign1/600/400", "imageHint": "lobby sign", "category": "signs", "subCategory": "interior", "description": "3D acrylic lobby sign with brushed metal finish." },
