@@ -7,7 +7,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ArrowRight } from 'lucide-react';
 
 export function Hero() {
-  const heroImage = PlaceHolderImages.find(img => img.id === 'hero-main');
+  const heroImage = PlaceHolderImages.find(img => img.id === 'hero-rails');
 
   return (
     <section className="relative h-[60vh] md:h-[80vh] w-full text-white">
