@@ -25,7 +25,7 @@ export function Hero() {
       )}
 
       <div className="absolute inset-0 bg-black/50" />
-      <div className="container mx-auto px-4 text-center relative z-10 flex flex-col items-center justify-center h-full">
+      <div className="container mx-auto px-4 relative z-10 flex flex-col items-center justify-center h-full text-center">
         <div className="max-w-2xl">
             <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter mb-4 animate-fade-in-up">
             Avid Signs & Wraps
@@ -34,7 +34,7 @@ export function Hero() {
             We bring your brand to life with stunning visuals, from custom signs to eye-catching vehicle wraps. Serving Staten Island and the tri-state area.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up animation-delay-600">
-            <Button size="lg" asChild>
+            <Button size="xl" asChild>
                 <Link href="/contact">
                 Get Your Free Quote
                 <ArrowRight className="ml-2 h-5 w-5" />
