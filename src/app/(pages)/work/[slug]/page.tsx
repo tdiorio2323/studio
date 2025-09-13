@@ -1,3 +1,4 @@
+
 import { PlaceHolderImages, type ImagePlaceholder } from '@/lib/placeholder-images';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
