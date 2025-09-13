@@ -1,12 +1,12 @@
 
 {
   "placeholderImages": [
-    { "id": "hero", "imageUrl": "https://i.imgur.com/Os5vPja.jpeg", "imageHint": "storefront sign", "category": "general", "description": "The Black Derby storefront sign." },
+    { "id": "hero-1", "imageUrl": "https://i.imgur.com/vKI6vFv.jpeg", "imageHint": "storefront sign", "category": "general", "description": "Front view of the 'THINK DO SAY' pediatric speech therapy center." },
+    { "id": "hero-2", "imageUrl": "https://i.imgur.com/QpM4a3g.jpeg", "imageHint": "storefront sign", "category": "general", "description": "Angled shot of the 'THINK DO SAY' storefront and main entrance." },
+    { "id": "hero-3", "imageUrl": "https://i.imgur.com/rS2aWcr.jpeg", "imageHint": "window graphics", "category": "general", "description": "Close-up of the service description window graphics for speech and feeding therapy." },
+    { "id": "hero-4", "imageUrl": "https://i.imgur.com/h5TQVNa.jpeg", "imageHint": "window graphics", "category": "general", "description": "Window graphics for social groups and insurance information at 'THINK DO SAY'." },
+    { "id": "hero-5", "imageUrl": "https://i.imgur.com/G4I4ZZ6.jpeg", "imageHint": "storefront sign", "category": "general", "description": "Wide shot of the 'THINK DO SAY' building facade." },
     { "id": "showcase-1", "imageUrl": "https://picsum.photos/seed/show1/600/400", "imageHint": "storefront sign", "category": "signs", "subCategory": "exterior", "description": "Illuminated channel letter sign for a modern storefront." },
-    { "id": "new-wrap-1", "imageUrl": "https://i.imgur.com/vKI6vFv.jpeg", "imageHint": "van wrap", "category": "wraps", "description": "Brooklyn Audiology branded van wrap." },
-    { "id": "new-wrap-2", "imageUrl": "https://i.imgur.com/QpM4a3g.jpeg", "imageHint": "truck wrap", "category": "wraps", "description": "Richmond Tile work truck wrap design." },
-    { "id": "new-wrap-3", "imageUrl": "https://i.imgur.com/rS2aWcr.jpeg", "imageHint": "van wrap", "category": "wraps", "description": "'Love Your Bath' promotional van wrap." },
-    { "id": "new-wrap-4", "imageUrl": "https://i.imgur.com/h5TQVNa.jpeg", "imageHint": "truck wrap", "category": "wraps",  "description": "Tidal Wave commercial truck wrap." },
     { "id": "showcase-2", "imageUrl": "https://picsum.photos/seed/show2/600/400", "imageHint": "food truck", "category": "wraps", "description": "Full color wrap on a food truck with vibrant graphics." },
     { "id": "showcase-3", "imageUrl": "https://i.imgur.com/G5T2aY4.jpeg", "imageHint": "storefront sign", "category": "signs", "subCategory": "exterior", "description": "Takkra illuminated storefront sign." },
     { "id": "showcase-4", "imageUrl": "https://picsum.photos/seed/show4/600/400", "imageHint": "fleet vans", "category": "wraps", "description": "Consistent branding across a fleet of commercial vans." },
