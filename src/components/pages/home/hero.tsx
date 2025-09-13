@@ -1,53 +1,28 @@
 'use client';
 import Image from 'next/image';
 import Link from 'next/link';
-import Autoplay from "embla-carousel-autoplay"
 
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ArrowRight } from 'lucide-react';
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-} from '@/components/ui/carousel';
 
 export function Hero() {
-  const heroImages = PlaceHolderImages.filter(img => img.imageUrl.includes('i.imgur.com'));
+  const heroImage = PlaceHolderImages.find(img => img.id === 'showcase-3');
 
   return (
     <section className="relative h-[60vh] md:h-[80vh] w-full text-white">
-        <Carousel
-            opts={{
-                align: 'start',
-                loop: true,
-            }}
-            plugins={[
-                Autoplay({
-                  delay: 2000,
-                  stopOnInteraction: false,
-                  stopOnMouseEnter: false,
-                }),
-              ]}
-            className="w-full h-full"
-        >
-            <CarouselContent className="h-full">
-                {heroImages.map((image) => (
-                    <CarouselItem key={image.id} className="h-full pl-0">
-                        <div className="relative w-full h-full">
-                            <Image
-                                src={image.imageUrl}
-                                alt={image.description}
-                                data-ai-hint={image.imageHint}
-                                fill
-                                priority={heroImages.indexOf(image) === 0}
-                                className="object-cover"
-                            />
-                        </div>
-                    </CarouselItem>
-                ))}
-            </CarouselContent>
-        </Carousel>
+      {heroImage && (
+        <div className="absolute inset-0">
+          <Image
+              src={heroImage.imageUrl}
+              alt={heroImage.description}
+              data-ai-hint={heroImage.imageHint}
+              fill
+              priority
+              className="object-cover"
+          />
+        </div>
+      )}
 
       <div className="absolute inset-0 bg-black/50" />
       <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
