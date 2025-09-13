@@ -34,7 +34,7 @@
     { "id": "new-graphic-4", "imageUrl": "https://picsum.photos/seed/graphic4/800/600", "imageHint": "retail graphics", "category": "graphics", "description": "Seasonal promotional graphics in a retail store." },
     { "id": "about-team", "imageUrl": "https://picsum.photos/seed/about1/800/500", "imageHint": "team work", "category": "about", "description": "The Avid Visuals team collaborating on a design." },
     { "id": "wrap-hero", "imageUrl": "https://i.imgur.com/G4I4ZZ6.jpeg", "imageHint": "van wrap", "category": "wraps", "description": "C.J. Scotti Services LLC branded van wrap." },
-    { "id": "service-signs", "imageUrl": "https://i.imgur.com/G4I4ZZ6.jpeg", "imageHint": "storefront sign", "category": "services", "description": "Rails men's storefront sign." },
+    { "id": "service-signs", "imageUrl": "https://i.imgur.com/KCqwFT3.jpeg", "imageHint": "van wrap", "category": "services", "description": "C.J. Scotti Services LLC branded van wrap." },
     { "id": "service-wraps", "imageUrl": "https://picsum.photos/seed/serv2/600/400", "imageHint": "vehicle wrap", "category": "services", "description": "A colorful vehicle wrap being applied to a van." },
     { "id": "service-graphics", "imageUrl": "https://picsum.photos/seed/serv3/600/400", "imageHint": "wall mural", "category": "services", "description": "A large, detailed wall mural in an office." }
   ]
