@@ -40,7 +40,7 @@ export function Hero() {
                 <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
             </Button>
-            <Button size="lg" variant="secondary" asChild>
+            <Button size="xl" variant="secondary" asChild>
                 <Link href="/gallery">View Our Work</Link>
             </Button>
             </div>
